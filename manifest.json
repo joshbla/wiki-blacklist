@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia Blacklist",
+    "description": "A Chrome extension that allows you to blacklist certain terms from the Wikipedia Random Article feature.",
+    "version": "1.0.0",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Wikipedia Blacklist"
+    },
+    "background": {
+      "scripts": ["blacklist.js"]
+    }
+  }
+  
