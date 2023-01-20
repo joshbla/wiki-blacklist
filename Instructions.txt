@@ -1,0 +1,1 @@
+Write extension.js that when you select Random article on Wikipedia, the resulting page is scanned for blacklisted terms. If there is a blacklisted term, a new random article is found.
